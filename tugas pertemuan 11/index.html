@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Services - Landing Page</title>
+    <!-- Link to a CSS framework for RWD, e.g., Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Luxury Stay Hotels</h1>
+        <p>Experience the Comfort of a Lifetime</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Luxury Stay</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#branches">Branches</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promotions">Promotions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="container my-5">
+        <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Hotel View">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Room View">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Pool View">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="about" class="container my-5">
+        <h2>About Us</h2>
+        <p>Luxury Stay Hotels offers a perfect blend of comfort, luxury, and affordability. With premium facilities, we ensure your stay is unforgettable.</p>
+    </section>
+
+    <section id="branches" class="container my-5">
+        <h2>Our Branches</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Branch 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Branch 1: Jakarta</h5>
+                        <p class="card-text">Located in the heart of Jakarta, offering the best city experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Branch 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Branch 2: Bali</h5>
+                        <p class="card-text">Enjoy the serenity of Bali with world-class hospitality.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Branch 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Branch 3: Surabaya</h5>
+                        <p class="card-text">Conveniently located for business and leisure travelers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="promotions" class="container my-5">
+        <h2>Promotions</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Package</th>
+                    <th>Price</th>
+                    <th>Duration</th>
+                    <th>Terms & Conditions</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Honeymoon Package</td>
+                    <td>$500</td>
+                    <td>3 Days</td>
+                    <td>Available for couples only</td>
+                    <td>Includes romantic dinner and spa.</td>
+                </tr>
+                <tr>
+                    <td>Family Package</td>
+                    <td>$800</td>
+                    <td>5 Days</td>
+                    <td>Valid for 4 members</td>
+                    <td>Fun activities and discounts for kids.</td>
+                </tr>
+                <tr>
+                    <td>Business Package</td>
+                    <td>$300</td>
+                    <td>2 Days</td>
+                    <td>Valid on weekdays</td>
+                    <td>Includes conference room and meals.</td>
+                </tr>
+                <tr>
+                    <td>Weekend Getaway</td>
+                    <td>$400</td>
+                    <td>2 Days</td>
+                    <td>Valid on weekends</td>
+                    <td>Relax and unwind with spa services.</td>
+                </tr>
+                <tr>
+                    <td>Adventure Package</td>
+                    <td>$700</td>
+                    <td>4 Days</td>
+                    <td>Available during holidays</td>
+                    <td>Includes outdoor activities and tours.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Luxury Stay Hotels. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

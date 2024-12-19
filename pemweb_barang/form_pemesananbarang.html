@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pemesanan barang</title>
+    <style>
+        section{
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+        .g1{
+            height: 70px;
+            margin-right: 6px;
+            border: 2px;
+        }
+        .g2{
+            height: 50px;
+            border: 2px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style="background-color:rgb(153, 156, 249);margin: 0px 100px">
+        <div style="display: flex;justify-content: space-between;"> </div>
+        <div style="justify-content: center;"></div>
+            <img style="border: 5px solid black; width: 300px;" src="nai.img.jpeg"> 
+            <img style="border: 5px solid black; width: 270px;" src="naiboneka.jpeg"> 
+            <img style="border: 2px solid black; width: 270px;" src="boneka.jpeg"> 
+        <div style="margin: 0px 70px 0px 20px;"> 
+    <form action="thankyou.html">
+        <fieldset style="margin: 0px 250px;">
+            <h1 style="align-content: center;"> PEMESANAN BARANG</h1> </fieldset>
+            <hr style="border-left: 5px solid black;"><hr> 
+            <p>
+                <label for="Nama"><b>Nama Pemesan :</b> </label>
+                <input type="text" id="Name" name="Nama" value="Ryujin"><br><br>
+            </p>
+            <p>
+                <label for="Nama"><b>Barang Yang Di Pesan :</b></label>
+                <input type="text" id="name" name="Nama" value=" 8 Boneka">
+            </p>
+            <p>
+                <label for="Instruction"> <b>Deskripsi : </b></label> <!--CNTRL-D untuk cara cepat semua-->
+                <textarea>barang terbaru,lucu,bonekanya lembut dan kualitasnya bagus juga baik </textarea><br>
+            </p>
+            <p>
+                <label  for="Nama"><b> Nomor akun : </b></label>
+                <input type="text" id="name" name="Nama" value="122-345-867-9">
+            </p>
+            <p>
+                <label>,<b>Bank </b></label>
+                <select name="bank">
+                    <option>--- SILAHKAN PILIH---</option>
+                    <option value="BNI">BNI</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MANDIRI">MANDIRI</option>
+                </select>
+            </p>
+            <p>
+                <label for="name"> <b>Nama Rekening : </b></label>
+                <input type="text" name="Nama" id="Nama" value="Ryujin">
+            </p>
+            <th><b>Transaksi : </b></th>
+            <input type="number" min="1" max="10"> <br>
+
+            <input type="checkbox" id="kirim nomor">
+            <label for="kirim nomor"> send to mobile handphone</label> <br>
+
+            <input type="checkbox" id="send to email>">
+            <label for="send email">send to email</label> <br>
+
+            <p>
+                <label for="Nama"><b>Send to mobile handphone : </b></label>
+                <input type="text" id="name" name="Nama" value="122-345-867-9">
+            </p>
+            <p>
+                <label for="Nama"> <b>Send to email : </b></label>
+                <input type="text" id="Name" name="Nama" value="Sunghoonrwarr@gmail.com">
+            </p>
+            <input type="submit" value="pesanan di proses">
+            <input type="reset" value="Reset">
+        </form>
+        </div>
+        </div>
+    </form>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: rgb(166, 172, 166);
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+  justify-content: center; 
+  margin-top: 30px;
+}
+.box {
+  height: 100px;
+}
+.yellow {
+  background-color: yellow;
+  width: 300px;
+  height: 100px;
+  margin-top: 0px;
+}
+.orange {
+  background-color: orange;
+  width:1000px;
+  height: 100px;
+}
+.green {
+  background-color: greenyellow;
+  width: 250px;
+  height: 500px;
+}
+.grey {
+  background-color: grey;
+  width: 800px;
+  height: 500px;
+}
+.blue {
+  background-color: rgb(14, 199, 250);
+  width: 250px;
+  height: 500px;
+}
+.bluee {
+    background-color: rgb(149, 152, 231);
+    padding: 20px;
+    margin-top: 50px;  
+    width: 100%;  
+    box-sizing: border-box;
+}

@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bawah{
+    display: flex;
+    width: 1000px;
+    height: 50px;
+}
+
+.box{
+    width: 300px;
+    margin: 10px;
+    height: 80px;
+    display: flex;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+
+.box1{
+    width: 300px;
+    background-size: 100px;
+    height: 80px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5iuT2_wHD-t8oUwEF7axED7kXs_r35BkiQ&s);
+}
+
+.box2{
+    width: 300px;
+    background-size: 120px;
+    display: flex ;
+    height: 80px;
+    background-image: url(https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/294/2024/04/23/20240422_220626-2180909420.jpg);
+}
+
+.box3{
+    width: 300px;
+    background-size: 100px;
+    display: flex;
+    height: 80px;
+    background-image: url(https://images.tokopedia.net/blog-tokopedia-com/uploads/2021/11/Featured_Profil-dan-Fakta-Menarik-Hyunjin-Stray-Kids-Sang-Main-Dancer-.jpg);
+}
+
+.box4{
+    width: 1000px;
+    background-size: 150px;
+    height:80px;
+    background-image: url(https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/916/2024/02/03/sunghoon-enhypenPNG-3661283781.png);
+}
+
+.box5{
+    width: 1000px;
+    background-size: 150px;
+    height: 80px;
+    background-image: url(https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/09/2023/11/23/cha-eun-woo-astro-143433608.jpg);
+}
+
+.box6{
+    width: 1000px;
+    background-size: 150px;
+    height: 80px;
+    background-image: url(https://o-cdn-cas.oramiland.com/parenting/images/mingrui.width-800.format-webp.webp);
+}
+
+.box7{
+    width: 1000px;
+    background-size: 110px;
+    height: 80px;
+    background-image: url(https://akcdn.detik.net.id/visual/2024/04/11/zayyan-rayakan-idul-fitri-di-korea-5.jpeg?w=450&q=90);
+}
+
+.box8{
+    width: 1000px;
+    background-size: 110px;
+    height: 80px;
+    background-image: url(https://cdn.popmama.com/content-images/community/20230531/community-02b0160f3869d229aff3af4c070b86d7.jpg?1685539449);
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+</head>
+<body>
+    <fieldset style="border: 1px solid;background-color: rgb(178, 226, 226);margin:0px 250px;">
+    <fieldset style="margin:0px 250px">
+    <h1 style="text-align: center;">TOKO PIZZA-KU</h1> </fieldset></fieldset>
+    
+    <fieldset style="border: 1px solid;background-color: rgb(190, 232, 243); margin: 0px 250px;">
+    <form action="thankyou.html">
+        <h4 style="text-align: center;">Isi Formulir di Bawah</h4>
+        
+        
+    <fieldset style="margin: 0px 250px;">
+    <p>
+        <label for="Nama">Nama :</label>
+        <input type="text" id="Name" name="Nama" value="Lee Haechan"><br><br>
+    </p>
+    <p>
+        <label for="Nama">Email :</label>
+        <input type="text" id="Email" value="haechannai@gmail.com"><br>
+    </p>
+    <p>
+        <label for="phone">No.Telepon :</label>
+        <input type="text" id="phone" value="05717217586"><br>
+    </p>
+    <p>
+        <label for="Address">Address:</label>
+        <textarea name="Address" id="Address" valuetext=" jalan akses ui"></textarea><br>
+    </p>
+    <p>
+        <label for="Instruction">Delivery Instruction :</label> <!--CNTRL-D untuk cara cepat semua-->
+        <textarea name="Instruction" id="Instruction" placeholder="No More Than 400 Character" value="hati hati nanti makanannya jtuh dan sesuai sama pesanan ya" ></textarea><br></fieldset>
+    </p>
+        <h4 style="text-align: center;">Pilih Pizzamu</h4>
+        <fieldset style="margin: 0px 0px;">
+        <h4><label for="crust">Crust (Choose one):</label></h4>
+
+        <input type="radio" id="classic_white" name="crust">
+        <label for="classic_white" id="classic_white">Classic white</label><br>
+        <input type="radio" id="whole_wheat" name="crust">
+        <label for="whole_wheat" id="classic_white">Whole wheat</label><br>
+        <input type="radio" id="cheese" name="crust">
+        <label for="cheese" id="classic_white">Cheese</label><br>
+
+        <h4><label>Topping (lebih dari satu)</label></h4>
+        <input type="checkbox" name="toppings">Red Sauce<br>
+        <input type="checkbox" name="toppings">White Sauce<br>
+        <input type="checkbox" name="toppings">Mozarella<br></fieldset>
+    <p>
+        <label>Mau Berapa Pizzanya?</label>
+        <input type="text" id="mau berapa pizzanya?"><br>
+    </p>
+
+        <input type="submit" value="Pesan Sekarang">
+        <input type="reset" value="Reset">
+    </form>
+    </fieldset>
+</body>
+</html>

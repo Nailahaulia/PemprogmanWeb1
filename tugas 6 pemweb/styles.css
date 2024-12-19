@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: rgb(166, 172, 166);
+    padding: 15px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; 
+    margin-top: 50px;
+}
+.box {
+    height: 100px;
+}
+.green {
+    background-color: rgb(149, 231, 149);
+    padding: 20px;
+    margin-top: 50px;  
+    width: 100%;  
+    box-sizing: border-box;
+}
+.yellow {
+    background-color: yellow;
+    width: 400px;
+    height: 200px;
+    margin-top: 0px;
+}
+.orange {
+    background-color: orange;
+    width:1000px;
+    height: 200px;
+}
+.blue {
+    background-color: rgb(26, 130, 241);
+    width:1000px;
+    height: 200px;
+}

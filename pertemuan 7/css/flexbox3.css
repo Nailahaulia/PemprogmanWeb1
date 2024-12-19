@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightpink;
+}
+header {
+  background-color: lightblue;
+  padding: 1rem;
+  text-align: center;
+}
+main {
+  display: flex;
+  background-color: salmon;
+  padding: 1rem;
+}
+aside {
+  width: 25%;
+  background-color: mediumturquoise;
+  padding: 1rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+article {
+  width: 300px;
+  height: 400px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.content {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  background-color: lightblue;
+  padding: 1rem;
+  text-align: center;
+}

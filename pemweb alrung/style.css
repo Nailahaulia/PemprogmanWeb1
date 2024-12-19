@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#header {
+    background: #6ab04c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+nav {
+    background: #2ed573;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.gambar, .koleksi {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.gambar img, .koleksi img {
+    width: 300px;
+    margin: 10px;
+}
+
+.isi, #profil, #berternak, .promo {
+    padding: 20px;
+    background: white;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #2ed573;
+}
+
+#Wa {
+    font-weight: bold;
+}
+
+del {
+    color: red;
+}
+
+ol {
+    background: #ccfee1;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    list-style: none;
+    padding: 0;
+}
+ol li {
+    display: inline;
+    margin: 0 15px;
+}
+ol a {
+    color: white;
+    text-decoration: none;
+}
+a {
+    color: #2ed573;
+    text-decoration: none;
+}

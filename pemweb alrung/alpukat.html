@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpukat</title>
+    <meta name="description" content="khasiat alpukat">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        h1 {
+            color: #4CAF50;
+            border: 2px solid #4CAF50;
+            padding: 10px;
+            text-align: center;
+        }
+        .promo, .cod, button {
+            text-align: center;
+            margin: 20px 0;
+            border: 2px solid #4CAF50;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .promo h2, .promo h3, .cod p, button {
+            margin: 10px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .foto img {
+            margin: 10px;
+            width: 150px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        h1, h2, h3 {
+            color: #4CAF50;
+        }
+        .highlight {
+            background-color: #e8dd9c; 
+            font-weight: bold;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+        }
+        th {
+            background-color: #06aae0;
+            color: white;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; 
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style="border: 5px solid;background-color: rgb(190, 232, 243); margin: 0px 50px;">
+        <h1>Alpukat Buah Nikmat Kaya Manfaat</h1>
+
+        <img src="poto 2.png" alt="buah alpukat">
+
+        <p>Alpukat merupakan jenis buah yang memiliki kandungan lemak tinggi, sekitar 20 kali lebih tinggi dibanding buah-buahan lain...</p>
+
+        <img src="jus alpukat.jpeg" alt="jus alpukat">
+
+        <h3>Berikut Khasiat Buah Alpukat:</h3>
+        <ol>
+            <li><span class="highlight">Vitamin E</span>: Memiliki anti-aging yang dapat mendukung perawatan kulit alami.</li>
+            <li><span class="highlight">Vitamin K</span>: Membantu mencegah terjadinya osteoporosis.</li>
+            <li><span class="highlight">Vitamin B5</span>: Membantu menurunkan tingkat stres dan meringankan rasa sakit.</li>
+            <li><span class="highlight">Vitamin B6</span>: Membantu mengatasi diabetes, pendarahan menstruasi, dan insomnia.</li>
+        </ol>
+
+        <div class="foto">
+            <img src="images/alpukat_miki.png" alt="alpukat miki">
+            <img src="images/alpukat_mentega.png" alt="alpukat mentega">
+            <img src="images/alpukat_kendil.png" alt="alpukat kendil">
+            <img src="images/alpukat_aligator.png" alt="alpukat aligator">
+        </div>
+        
+        <table>
+            <tr>
+                <th>NO</th> 
+                <th>JENIS ALPUKAT</th>
+                <th>HARGA 1KG</th>
+                <th>HARGA 2KG</th>
+                <th>HARGA 3KG</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Alpukat Miki</td>
+                <td>Rp.50.000</td>
+                <td>Rp.95.000</td>
+                <td>Rp.140.000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alpukat Mentega</td>
+                <td>Rp.35.000</td>
+                <td>Rp.65.000</td>
+                <td>Rp.95.000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Alpukat Kendil</td>
+                <td>Rp.50.000</td>
+                <td>Rp.80.000</td>
+                <td>Rp.110.000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Alpukat Aligator</td>
+                <td>Rp.40.000</td>
+                <td>Rp.85.000</td>
+                <td>Rp.120.000</td>
+            </tr>
+        </table>
+
+        <div class="promo">
+            <h2>Anda ingin Buah Alpukat? Penawaran Khusus Bagi Anda</h2>
+            <h3>Harga 1 Kg <del>Rp. 35.000</del><br> Sekarang hanya <span>Rp. 25.000</span> saja!<br> Tertarik?</h3>
+        </div>
+
+        <div class="cod">
+            <p><span>PEMBAYARAN DI TEMPAT / COD</span> <br> Hanya untuk Jakarta, Bekasi, dan Depok<br> Potongan Ongkir Rp. 5.000,- <br>Untuk Pembelian Via Transfer</p>
+        </div>
+    </fieldset>
+
+    <div>
+        <button id="tombol" onclick="pesanSekarang()">PESAN SEKARANG</button>
+    </div>
+
+    <script>
+        function pesanSekarang() {
+            alert("Pesanan Anda telah diterima! Terima kasih telah memesan buah alpukat.");
+        }
+    </script>
+</body>
+</html>

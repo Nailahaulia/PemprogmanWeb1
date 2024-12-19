@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Galeri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: pink;
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav {
+            background-color: white;
+            border: 2px solid black;
+            margin: 5px 0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: pink;
+            border: 2px solid black;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>ASNYATI - My Galeri</h1>
+        </div>
+        <nav>
+            <a href="indeks.html">About</a>
+            <a href="mygaleri.html">My Galeri</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Galeri Foto</h2>
+        <p>Ini adalah koleksi foto saya.</p>
+        <div class="gallery">
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <img src="foto3.jpg" alt="Foto 3">
+            <img src="foto4.jpg" alt="Foto 4">
+            <img src="foto5.jpg" alt="Foto 5">
+            <img src="foto6.jpg" alt="Foto 6">
+        </div>
+    </main>
+    <footer>
+        <h2>By Nia</h2>
+    </footer>
+</body>
+</html>
